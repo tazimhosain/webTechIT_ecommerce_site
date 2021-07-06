@@ -1,0 +1,23 @@
+@media(max-width: 991px){
+    #navMenu .nav-link,
+    #navMenu form{
+        margin-top: 15px;
+        text-align: right;
+        justify-content: end;
+    }
+    #navMenu .navbar-toggler{
+        border: none;
+    }
+    #featured .product .btn{
+        background: coral;
+        color: #fff;
+        border-bottom: 2px solid rgb(206, 92, 51);
+        opacity: 1;
+        transform: translateY(0px);
+        transition: .5s;
+    }
+    #featured .product:hover a{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

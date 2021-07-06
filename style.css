@@ -1,0 +1,227 @@
+/* ======================================
+    Navigation Menu Style
+====================================== */
+#navMenu .navbar{
+    box-shadow: 0px 1px 3px #000;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+#navMenu .nav-link{
+    padding: 0px 10px;
+}
+
+#navMenu .nav-link:hover,
+#navMenu .active a{
+    color: coral;
+}
+
+
+/* ======================================
+    Index Header Style
+====================================== */
+#indexHeader{
+    background: url(images/back.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 50px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#indexHeader .col h1 span{
+    color: coral;
+}
+
+#indexHeader .col h1{
+    font-weight: 700;
+}
+
+#indexHeader .col .btn{
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+/* ======================================
+    Brand Section Style
+====================================== */
+
+
+/* ======================================
+    New Section Style
+====================================== */
+#new{
+   position: relative;
+}
+
+#new .newContent h3{
+    font-weight: 700;
+}
+
+#new .newbg1{
+    background: url(images/new/1.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#new .newbg2{
+    background: url(images/new/3.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#new .newbg3{
+    background: url(images/new/5.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.newContent{
+    position: absolute;
+    top: 50%;
+    display: inline;
+}
+
+
+/* ======================================
+    Featured Section Style
+====================================== */
+#featured h2{
+    font-weight: 700;
+}
+
+#featured h2::after{
+    content: '';
+    display: block;
+    height: 4px;
+    background: coral;
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product{
+    cursor: pointer;
+}
+
+.product img{
+    width: 100%;
+    transition: .3s;
+    height: 250px;
+}
+
+.product img:hover{
+    opacity: 0.8;
+}
+
+#featured .star{
+    color: goldenrod;
+}
+
+#featured .pPrice{
+    font-weight: 600;
+}
+
+#featured .product .btn{
+    background: coral;
+    color: #fff;
+    border-bottom: 2px solid rgb(206, 92, 51);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .5s;
+}
+
+#featured .product:hover a{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ======================================
+    Banner Section Style
+====================================== */
+#banner{
+    background: url(images/banner/2.jpg);
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top 120px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+#banner h1{
+    font-weight: 700;
+}
+
+#banner .lead{
+    font-weight: 500;
+}
+
+#banner a{
+    background: coral;
+    color: #fff;
+    border-bottom: 2px solid rgb(206, 92, 51);
+    padding: 5px 20px;
+}
+
+
+/* ======================================
+    Footer Section Style
+====================================== */
+footer img{
+    width: 150px;
+}
+
+footer .col:nth-child(2){
+    background: red;
+}
+
+
+
+
+/* ======================================
+    Single Product Page Style
+====================================== */
+#sproduct img{
+    margin: 20px 0px;
+}
+
+.smallImg{
+    cursor: pointer;
+}
+
+/* ======================================
+    New Section Style
+====================================== */
+/* ======================================
+    New Section Style
+====================================== */
+/* ======================================
+    New Section Style
+====================================== */
+/* ======================================
+    New Section Style
+====================================== */
+/* ======================================
+    New Section Style
+====================================== */
